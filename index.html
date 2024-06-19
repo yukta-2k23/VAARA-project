@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAARA|Official Store - Shop Online Now</title>
+    <!-- LINK FAVICON -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <!-- FONT Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- LINK REMIX ICON -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <!-- LINK TAILWINDCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family: 'Roboto';
+        }
+        html,body{
+            height:100%;
+            width:100%;
+        }
+        #left{
+            background-image: url(https://vaara.com/cdn/shop/files/Shot_02_169_v5_RGB.jpg?v=1715694769&width=1920);
+            background-position:center;
+            background-size: cover;
+        }
+        #right{
+            background-image: url(https://vaara.com/cdn/shop/files/Shot_06_296_v5_RGB.jpg?v=1715700253&width=1920);
+            background-position:center;
+            background-size: cover;
+        }
+        .navitems{
+            transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
+        }
+        .navright{
+            transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
+        }
+    </style>
+</head>
+<body>
+    <div class="topdiv h-9 w-screen px-10 py-2 flex items-center justify-center bg-[#2B231E] text-white text-xs text-center font-light absolute top-0">EXPRESS COMPLIMENTARY SHIPPING AVAILABLE</div>
+    <nav>
+        <div class="navitems h-16 w-screen px-10 py-5 text-white bg-transparent hover:bg-white hover:text-black  flex items-center justify-between absolute top-9">
+            <div id="navleft">
+                <h1 class="text-2xl font-extrabold">VAARA</h1>
+            </div>
+            <div class="navcenter flex items-center justify-center gap-10">
+                <h3 class="text-xs font-light">NEW IN</h3>
+                <h3 class="text-xs font-light">SHOP</h3>
+                <h3 class="text-xs font-light">EXPLORE</h3>
+                <H3 class="text-xs font-light"><i class="ri-search-line mr-1 font-extralight"></i> SEARCH</H3>
+            </div>
+            <div class="navright flex items-center justify-between gap-4 hover:opacity-50">
+                <i class="ri-money-euro-circle-line text-base font-extralight hover:opacity-100"></i>
+                <i class="ri-user-line text-base font-extralight hover:opacity-100"></i>
+                <i class="ri-bookmark-line text-base font-extralight hover:opacity-100"></i>
+                <i class="ri-handbag-line text-base font-extralight hover:opacity-100"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="overlay h-[110vh] w-screen flex bg-black bg-opacity-80 text-white">
+            <div class="h-full w-1/2 px-10 py-20 flex items-end justify-between" id="left">
+                <div class="heading h-28 w-[70%] flex flex-col justify-end">
+                    <h2 class="text-3xl font-light tracking-tight mb-2">Summer Additions</h2>
+                    <p class="text-base">Just-arrived pieces for every summer situation from studio to beach.</p>
+                </div>
+                <div class="shop">
+                    <h3 class="text-sm font-light border-b-[1px] border-b-white">SHOP NOW</h3>
+                </div>
+            </div>
+            <div class="h-full w-1/2 px-10 py-20 flex items-end justify-between" id="right">
+                <div class="heading h-24 w-[70%] flex flex-col justify-end">
+                    <h2 class="text-3xl font-light tracking-tight mb-2">Swimwear Capsule</h2>
+                    <p class="text-base">A fusion of sophisticated swimwear and effortless cover-ups.</p>
+                </div>
+                <div class="shop">
+                    <h3 class="text-sm font-light border-b-[1px] border-b-white">SHOP NOW</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
